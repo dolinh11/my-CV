@@ -1,0 +1,319 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-orange {
+    color: #f99d36 !important;
+}
+
+.text-red {
+    color: #e85a61 !important;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-haft {
+    width: 50%;
+}
+
+.col-third {
+    width: calc(100%/3);
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mb-48 {
+    margin-bottom: 48px;
+}
+
+/* Main */
+
+#header {
+    height: 46.4px;
+    background-color: #001e38;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav > li {
+    display: inline-block;
+}
+#nav li {
+    position: relative;
+}
+
+#nav > li > a { 
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 46.6px;
+    padding: 0 24px;
+}
+
+#nav li a {
+    text-decoration: none;
+    display: block;
+}
+
+#nav li:hover > a {
+    color: #000;
+    background-color: #e85a61;
+}
+
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    line-height:46.4px;
+}
+
+#header .mobile-menu-btn {
+    float: right;
+    padding: 0 21px;
+    color: #fff;
+}
+
+#header .mobile-menu-btn:hover {
+    background-color: #e85a61;
+}
+
+#banner {
+    margin-top: 46.5px;
+    padding-top: 50%;
+    background: url("../images/background.png") top center / cover no-repeat;
+    position: relative;
+}
+
+#content .content-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 64px 16px;
+    width: 100%;
+}
+
+#content .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin: 10px 0;
+}
+
+#content .quotes {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.8;
+    color: #e85a61;
+}
+
+#experience .quotes {
+    color: #f99d36;
+}
+
+#academic hr,
+#about hr {
+    width: 100px;
+    border: 1px solid #e85a61;
+    background: #e85a61;
+    margin: auto;
+}
+
+#experience hr {
+    width: 100px;
+    border: 1px solid #f99d36;
+    background: #f99d36;
+    margin: auto;
+}
+
+.about__content {
+    padding-top: 32px;
+    width: 100%;
+}
+
+.about__name {
+    font-size: 20px;
+    text-align: center;
+    color: #e85a61;
+}
+
+.about__ava {
+    float: left;
+    border-radius: 10px;
+    --webkit--border-radius: 10px;
+    width: 40%;
+    margin-right: 32px;
+}
+
+.about__introduction {
+    padding: 32px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.academic,
+.skills,
+.contact__info {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-right: 24px;
+}
+
+.skills p{
+    text-align: center;
+    padding: 24px;
+}
+
+.contact__info a {
+    color: #e85a61;
+    opacity: 0.7;
+}
+
+.contact__info a:hover {
+    opacity: 1;
+}
+
+.academic i,
+.skills i,
+.contact__info i[class*="fas"] {
+    width: 30px;
+    display: inline-block;
+    color: #e85a61;
+    text-align: center;
+}
+
+.academic i {
+    color: #f99d36;
+}
+
+.contact__info h3,
+.design h3,
+.development h3 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 32px;
+    color: #001e38;
+    font-weight: 400;
+}
+
+.contact__info h3 {
+    padding-top: 16px;
+}
+
+.design h4 {
+    font-weight: 500;
+    color: #001e38;
+}
+
+.design h4:first-child {
+    margin-top: 24px;
+}
+/* Products */
+.products-section {
+    background-color: #001e38;
+}
+
+.products-list {
+    padding-top: 16px;
+    padding-bottom: 48px;
+    align-items: center;
+}
+
+.product-info {
+    background-color: #fff;
+    font-size: 15px;
+    padding: 0.15px 16px;
+}
+
+.product-img {
+    width: 100%;
+    display: block;
+    height: 200px;
+}
+
+.product-img:hover {
+    opacity: 0.60;
+}
+
+.product-name {
+    margin: 15px 0;
+    font-weight: bolder;
+}
+
+.product-price {
+    margin: 15px 0;
+    opacity: 0.80;
+    font-style: italic;
+    color: #e85a61;
+}
+
+.product-content {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+#footer {
+    padding: 64px 16px;
+    font-size: 22px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#footer i {
+    padding: 0 14px;
+    color: #001e38;
+}
+
+#footer i:hover {
+    opacity: 0.3;
+}
+
+.footer-content {
+    font-size: 15px;
+    margin: 15px 0;
+}

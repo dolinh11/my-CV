@@ -230,8 +230,8 @@ html {
 }
 
 .contact__info h3,
-.design h3,
-.development h3 {
+.achievements h3,
+.skills-hobbies h3 {
     font-size: 24px;
     text-align: center;
     padding-top: 32px;
@@ -243,54 +243,56 @@ html {
     padding-top: 16px;
 }
 
-.design h4 {
+.achievements h4 {
     font-weight: 500;
     color: #001e38;
 }
 
-.design h4:first-child {
+.achievements h4:first-child {
     margin-top: 24px;
 }
-/* Products */
-.products-section {
+
+
+/* Experiences */
+.experiences-section {
     background-color: #001e38;
 }
 
-.products-list {
+.experiences-list {
     padding-top: 16px;
     padding-bottom: 48px;
     align-items: center;
 }
 
-.product-info {
+.experience-info {
     background-color: #fff;
     font-size: 15px;
     padding: 0.15px 16px;
 }
 
-.product-img {
+.experience-img {
     width: 100%;
     display: block;
     height: 200px;
 }
 
-.product-img:hover {
+.experience-img:hover {
     opacity: 0.60;
 }
 
-.product-name {
+.experience-name {
     margin: 15px 0;
     font-weight: bolder;
 }
 
-.product-price {
+.experience-title {
     margin: 15px 0;
     opacity: 0.80;
     font-style: italic;
     color: #e85a61;
 }
 
-.product-content {
+.experience-content {
     margin: 15px 0;
     line-height: 1.5;
 }

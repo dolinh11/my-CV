@@ -253,6 +253,39 @@ html {
 }
 
 
+.web__skill, 
+.other__skill {
+    text-align: center;
+}
+
+.web__skill h3, 
+.other__skill h3 {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 48px;
+    color: #001e38;
+}
+
+.web__skill div, 
+.other__skill div {
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    padding: 32px;
+}
+
+.web__skill i, 
+.other__skill i {
+    font-size: 64px;
+    padding: 16px;
+    opacity: 0.8;
+}
+
+.web__skill i:hover, 
+.other__skill i:hover {
+    opacity: 1;
+}
+
 /* Experiences */
 .experiences-section {
     background-color: #001e38;

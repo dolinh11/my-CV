@@ -25,6 +25,10 @@ html {
     color: #e85a61 !important;
 }
 
+.text-green {
+    color: #14B68E !important;
+}
+
 .row {
     margin-left: -8px;
     margin-right: -8px;
@@ -56,6 +60,10 @@ html {
 
 .mb-48 {
     margin-bottom: 48px;
+}
+
+.background_blue {
+    background-color: #001e38;
 }
 
 /* Main */
@@ -154,7 +162,7 @@ html {
     color: #f99d36;
 }
 
-#academic hr,
+.academic_hr ,
 #about hr {
     width: 100px;
     border: 1px solid #e85a61;
@@ -194,6 +202,7 @@ html {
     text-align: justify;
 }
 
+.project_item,
 .academic,
 .skills,
 .contact__info {
@@ -216,6 +225,7 @@ html {
     opacity: 1;
 }
 
+.project_item i,
 .academic i,
 .skills i,
 .contact__info i[class*="fas"] {
@@ -225,12 +235,17 @@ html {
     text-align: center;
 }
 
+.project_item i {
+    color: #14B68E
+}
+
 .academic i {
     color: #f99d36;
 }
 
 .contact__info h3,
 .achievements h3,
+.projects h3,
 .skills-hobbies h3 {
     font-size: 24px;
     text-align: center;
@@ -243,15 +258,33 @@ html {
     padding-top: 16px;
 }
 
-.achievements h4 {
+.achievements h4,
+.projects h4 {
     font-weight: 500;
     color: #001e38;
 }
 
+.projects h4:first-child,
 .achievements h4:first-child {
     margin-top: 24px;
 }
 
+.project_description {
+    font-weight: 500;
+    color: #14B68E;
+}
+
+.project_description-item {
+    font-size: 14px;
+    padding-left: 32px;
+}
+
+.project_hr {
+    width: 100px;
+    border: 1px solid #001e38;
+    background: #001e38;
+    margin: 24px 0;
+}
 
 .web__skill, 
 .other__skill {
@@ -284,6 +317,7 @@ html {
 .web__skill i:hover, 
 .other__skill i:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 /* Experiences */
@@ -335,13 +369,13 @@ html {
 #footer {
     padding: 64px 16px;
     font-size: 22px;
-    opacity: 0.8;
     text-align: center;
+    background-color: #001e38;
 }
 
 #footer i {
     padding: 0 14px;
-    color: #001e38;
+    color: white;
 }
 
 #footer i:hover {
@@ -351,4 +385,5 @@ html {
 .footer-content {
     font-size: 15px;
     margin: 15px 0;
+    color: white;
 }
